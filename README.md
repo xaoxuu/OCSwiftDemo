@@ -2,7 +2,7 @@
 ### Swift调用Objective-C
 
 Swift调用Objective-C文件比较简单。当在Swift工程中新建Objective-C文件或者在Objective-C工程中新建Swift文件时，Xcode会自动提示你是否创建bridging header桥接头文件，点击创建后Xcode会自动为你创建一个桥接头文件。
-如图1-1、1－2所示，在基于Swift的SwiftProject工程中创建一个OCViewController时，Xcode会自动创建一个名为SwiftProject-Bridging-Header.h桥接头文件。
+在基于OC的OCSwiftDemo中创建一个Swift文件或者在Swift项目中创建OC文件时，Xcode会自动创建一个名为SwiftProject-Bridging-Header.h桥接头文件。
 
 ![QQ20170701-122813@2x](resources/QQ20170701-122813@2x.png)
 
