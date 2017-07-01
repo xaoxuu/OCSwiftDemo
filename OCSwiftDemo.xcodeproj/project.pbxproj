@@ -82,23 +82,14 @@
 				CDB1492E1F06064F00530C43 /* AppDelegate.m */,
 				CDB149301F06064F00530C43 /* ViewController.h */,
 				CDB149311F06064F00530C43 /* ViewController.m */,
-				CDB149441F06283600530C43 /* OCClass.h */,
-				CDB149451F06283600530C43 /* OCClass.m */,
-				CDB149EB1F07532900530C43 /* OCVC1.h */,
-				CDB149EC1F07532900530C43 /* OCVC1.m */,
-				CDB149F41F07552A00530C43 /* OCVC2.h */,
-				CDB149F51F07552A00530C43 /* OCVC2.m */,
-				CDB149F61F07552A00530C43 /* OCVC2.xib */,
-				CDB149421F06069900530C43 /* Strava.swift */,
-				CDB149EE1F07533300530C43 /* SwiftVC1.swift */,
-				CDB149F01F0753BA00530C43 /* SwiftVC2.swift */,
-				CDB149F21F0753C200530C43 /* SwiftVC2.xib */,
+				CDB149411F06069900530C43 /* OCSwiftDemo-Bridging-Header.h */,
+				CDB14A1C1F075C9B00530C43 /* OC */,
+				CDB14A1D1F075CA400530C43 /* Swift */,
 				CDB149331F06065000530C43 /* Main.storyboard */,
 				CDB149361F06065000530C43 /* Assets.xcassets */,
 				CDB149381F06065000530C43 /* LaunchScreen.storyboard */,
 				CDB1493B1F06065000530C43 /* Info.plist */,
 				CDB1492A1F06064F00530C43 /* Supporting Files */,
-				CDB149411F06069900530C43 /* OCSwiftDemo-Bridging-Header.h */,
 			);
 			path = OCSwiftDemo;
 			sourceTree = "<group>";
@@ -109,6 +100,31 @@
 				CDB1492B1F06064F00530C43 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDB14A1C1F075C9B00530C43 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				CDB149441F06283600530C43 /* OCClass.h */,
+				CDB149451F06283600530C43 /* OCClass.m */,
+				CDB149EB1F07532900530C43 /* OCVC1.h */,
+				CDB149EC1F07532900530C43 /* OCVC1.m */,
+				CDB149F41F07552A00530C43 /* OCVC2.h */,
+				CDB149F51F07552A00530C43 /* OCVC2.m */,
+				CDB149F61F07552A00530C43 /* OCVC2.xib */,
+			);
+			name = OC;
+			sourceTree = "<group>";
+		};
+		CDB14A1D1F075CA400530C43 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				CDB149421F06069900530C43 /* Strava.swift */,
+				CDB149EE1F07533300530C43 /* SwiftVC1.swift */,
+				CDB149F01F0753BA00530C43 /* SwiftVC2.swift */,
+				CDB149F21F0753C200530C43 /* SwiftVC2.xib */,
+			);
+			name = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
